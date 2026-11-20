@@ -1,0 +1,9 @@
+- [x] Subir o LocalStack com docker-compose.yml.
+- [x] Configurar o provider AWS apontando para o LocalStack, sem credenciais no código (use variáveis de ambiente ou TF_VAR_).
+- Criar com Terraform:
+  - [x] uma tabela no banco definido;
+  - [x] um bucket S3 com versionamento habilitado;
+  - [x] uma instância EC2 (VM devido a versão free);
+  - [x] um Security Group liberando só as portas necessárias (SSH e porta da API).
+  - [x] Usar os blocos vistos em aula: variable, locals, output e pelo menos um data source.
+  - [x] Ter dois ambientes (dev e hom) usando arquivos .tfvars diferentes. O nome dos recursos precisa indicar o ambiente.
